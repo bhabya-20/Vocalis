@@ -1,0 +1,20 @@
+{
+  "name": "speech-to-text-node",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Live multilingual speech transcription with an Express and PostgreSQL backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "pg": "^8.16.0",
+    "serverless-http": "^4.0.0"
+  }
+}
